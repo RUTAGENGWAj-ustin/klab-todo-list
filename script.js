@@ -48,25 +48,25 @@ function addTask(){
           }
           inputBox.value = "";
         
-          // save();
+          save();
 }
 listContainer.addEventListener("click",function(e){
           if(e.target.tagName === "INPUT"){
                     e.target.classList.toggle("checked");
                     
-                  //  save();
+                   save();
           }
           else if(e.target.tagName === "SPAN"){
                     e.target.parentElement.remove();
-                  //  save();
+                    save();
           }
-         // save(); 
+          save(); 
 },false);
 
-/*function save(){
+function save(){
        localStorage.setItem("data",listContainer.innerHTML);   
 }
 function showTask(){
          listContainer.innerHTML = localStorage.getItem("data");
 }
-showTask();*/
+showTask();
