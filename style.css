@@ -133,3 +133,23 @@ input.checked{
   color: #f80808;
   text-decoration: line-through;
 }
+h2{
+  margin: 30px;
+  padding: auto;
+}
+h2 a{
+  background-color: #286fe1;
+  color: white;
+  border: 1px solid white;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 100px;
+  padding: 30px;
+  
+}
+h2 a:hover{
+  background-color: #28e188;
+  
+  
+}
